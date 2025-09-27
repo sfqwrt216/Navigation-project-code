@@ -1,0 +1,56 @@
+# Build directories
+build/
+bin/
+obj/
+debug/
+release/
+
+# QT specific
+*.pro.user
+*.pro.user.*
+*.qws
+*.qm
+.qmake.cache
+.qmake.stash
+moc_*
+qrc_*
+ui_*
+Makefile*
+*build-*
+*.moc
+
+# STM32 specific
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+*.ioc.bak
+
+# IDE files
+.vscode/
+.idea/
+*.workspace
+*.project
+*.cproject
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*~
+
+# Dependencies
+node_modules/
+*.deps/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
